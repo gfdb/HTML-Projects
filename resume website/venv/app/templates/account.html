@@ -1,0 +1,29 @@
+{% extends 'home.html' %}
+{% block title %}Members{% endblock %}
+{% block header %}Members{% endblock %}
+{% block subheader %}Welcome to the members only page, {{ name }}.{% endblock %}
+{% block firstpic %}<img id="edu" src="../static/images/football.jpg" allign="middle" id="headshot">{% endblock %}
+
+{% block one %}
+<div class="padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>{% block first %}<br>Where are you?{% endblock %}</h2>
+                <p class="lead">{% block firstpara %}<br>This is the members only page. Only people who have signed up and logged into 
+                    their account have access to this page. 
+                    {% endblock %}</p>
+                <p class="lead">
+                        {% block secondpara %} 
+                        {% endblock %}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    
+</script>
+{% endblock %}
+
+
